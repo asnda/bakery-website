@@ -1,24 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import HomePage from './components/HomePage';
-import AboutPage from './components/AboutPage';
-import MenuPage from './components/MenuPage';
-import Navigation from './components/Navigation';
-import './styles.css';
-
+import './App.css';
+import Navbar from './components/Navbar';
+import Hero from './components/HeroSection';
+import Menu from './components/Menu';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Navigation />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/menu" component={MenuPage} />
-        </Switch>
-      </div>
-    </Router>
+    <div className="App">
+      <Navbar />
+      <Hero />
+      <Menu />
+      <AboutUs />
+      <ContactUs />
+    </div>
   );
 }
 

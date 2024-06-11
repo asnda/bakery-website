@@ -1,0 +1,27 @@
+.about-section {
+  padding: 60px 20px;
+  background-color: #FDF5E6; /* Beige */
+  text-align: center;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

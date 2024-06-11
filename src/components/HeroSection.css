@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://marketplace.canva.com/EAFJLVe9hf8/1/0/1600w/canva-brown-%26-cream-photocentric-bakery-business-card-dYfF5dIokJ4.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-content {
+  text-align: center;
+  color: #f5f5dc; /* Beige */
+
+  padding: 40px;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: 'Lobster', cursive;
+}
+
+.hero-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
