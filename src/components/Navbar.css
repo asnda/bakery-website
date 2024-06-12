@@ -1,36 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* src/components/Navbar.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  background-color: #F0E2CE;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
-.navbar-logo {
-  font-size: 28px;
-  color: #a08679; /* Beige */
-  font-family: 'Lobster', cursive;
+.navbar-brand {
+  font-family: 'Playfair Display', serif;
 }
 
-.nav-links {
+.navbar-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #765341;
+  text-decoration: none;
+}
+
+.navbar-links {
   list-style: none;
   display: flex;
+  gap: 1.5rem;
 }
 
-.nav-links li {
-  margin: 0 15px;
+.navbar-links li {
+  display: inline;
 }
 
-.nav-links a {
+.navbar-links a {
+  color: #765341;
   text-decoration: none;
-  color: #a08679; /* Beige */
-  font-size: 18px;
+  font-size: 1rem;
   transition: color 0.3s ease;
+  font-family: 'Playfair Display', serif;
 }
 
-.nav-links a:hover {
-  color: #DA70D6; /* Tan */
+.navbar-links a:hover {
+  color: #d5a07e;
 }
